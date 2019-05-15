@@ -1,9 +1,9 @@
 num = int(input())
 if num > 0:
- print("positive number")
+ print("positive")
 elif num == 0:
  print("zero")
 elif num < 0:
- print("Negative number")
+ print("Negative")
 else:
  print("Invalid number")
