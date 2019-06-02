@@ -1,8 +1,8 @@
-def power(num,expo):
-    if(expo==1):
+def power(num,exp):
+    if(exp==1):
         return(num)
-    if(expo!=1):
-        return(num*power(num,expo-1))
+    if(exp!=1):
+        return(num*power(num,exp-1))
 num=int(input())
-expo=int(input())
-print(power(num,expo))
+exp=int(input())
+print(power(num,exp))
