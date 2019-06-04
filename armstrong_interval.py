@@ -1,7 +1,7 @@
-l1 = int(input())  
-l2 = int(input()) 
+lower = int(input())  
+upper = int(input()) 
   
-for n in range(l1,l2 + 1):
+for n in range(lower,upper + 1):
 	sum = 0
 	temp = n
 	while temp > 0:
