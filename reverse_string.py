@@ -1,5 +1,5 @@
-def reverse(string): 
-    string = string[::-1] 
-    return string 
-string = input()
-print(reverse(string))
+def reverse(str): 
+    str = str[::-1] 
+    return str 
+str = input()
+print(reverse(str))
