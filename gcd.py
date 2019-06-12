@@ -1,14 +1,14 @@
-def gcd(x, y):
+def gcd(a, b):
     gcd = 1
     
-    if x % y == 0:
-        return y
+    if a % b == 0:
+        return b
     
-    for k in range(int(y / 2), 0, -1):
-        if x % k == 0 and y % k == 0:
+    for k in range(int(b / 2), 0, -1):
+        if a % k == 0 and b % k == 0:
             gcd = k
             break  
     return gcd
-x = int(input())
-y = int(input())
-print(gcd(x, y))
+a = int(input())
+b = int(input())
+print(gcd(a, b))
