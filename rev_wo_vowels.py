@@ -1,6 +1,7 @@
 def reverse(str): 
     str = str[::-1] 
     return str 
+len1 = int(input())
 str = input()
 newstr = str;
 vowels = ('a', 'e', 'i', 'o', 'u');
