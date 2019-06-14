@@ -9,6 +9,5 @@ nterms = int(input())
 if nterms <= 0:
    print("invalid")
 else:
-   for i in range(nterms):
-       print(recur_fibo(i)) 
-       
+   for i in range(1,nterms+1):
+       print(recur_fibo(i),end=" ")
