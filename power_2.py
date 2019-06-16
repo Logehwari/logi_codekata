@@ -9,6 +9,6 @@ def isPowerOfTwo(n):
     return True
 n = int(input())
 if(isPowerOfTwo(n)): 
-    print('Yes') 
+    print('yes') 
 else: 
-    print('No') 
+    print('no') 
